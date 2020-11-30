@@ -1,0 +1,158 @@
+body {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button {
+    color: #fff;
+    background: #111010;
+    height: 30px;
+    width: 55px;
+    margin: 0 2.5px;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.balloon {
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    top: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+.balloon-red {
+    background-image: url(../img/balloon-red.png);
+}
+
+
+
+
+.balloon-yellow  {
+    background-image: url(../img/balloon-yellow.png);
+}
+
+
+
+
+.balloon-green  {
+    background-image: url(../img/balloon-green.png);
+}
+
+
+.balloon-blue  {
+    background-image: url(../img/balloon-blue.png);
+}
+
+
+.balloon-violet  {
+    background-image: url(../img/balloon-fiolet.png);
+}
+
+
+.total-shadow {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0, 0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    position: relative;
+
+
+}
+
+.total-block {
+    background: #fff;
+    padding: 10px 100px 40px;
+    border-radius: 10px;
+    text-align:center;
+    box-shadow: 0 0 20px rgba(0,0,0, 0.8);
+
+}
+
+
+.win {
+    display: none;
+}
+
+.lose {
+    display: none;
+}
+
+
+.score-block {
+    background: #111010;
+    width: 300px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 20px 0 0;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 150px);
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+}
+
+
+.start-game-window{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.start-game-button {
+    height: 40px;
+    width: 90px;
+    font-size: 18px;
+    letter-spacing: 0.5px
+}
+
+.start-game-window h2 {
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
